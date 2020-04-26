@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- Sets the maximum tier that a troop can get -->
+  <!-- Native value is 7 -->
+  <HighestTier>10</HighestTier>
+
+  <!-- Sets the wages for tier 0, 1, 2, 3, etc. -->
+  <!-- Native values are 1, 2, 3, 5, 8, 13, 21, 33 for tiers 0-7 -->
+
+  <!-- Make sure that the number of wages you have is 1 higher than your max tier -->
+  <!-- For example, if your max tier is 10, you should have 11 total numbers in Wages -->
+  <!-- This is because tiers start at tier 0 (peasants are tier 0, recruits are tier 1) -->
+  <Wages>1,2,3,5,8,13,21,34,55,89,144</Wages>
+</config>
